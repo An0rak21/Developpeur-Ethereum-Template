@@ -278,3 +278,6 @@ node_modules/@openzeppelin/contracts/utils/types/Time.sol
 node_modules/@openzeppelin/contracts/vendor/compound/ICompoundTimelock.sol
 node_modules/@openzeppelin/contracts/package.json
 node_modules/@openzeppelin/contracts/README.md
+node_modules
+node_modules/.package-lock.json
+node_modules/.package-lock.json
