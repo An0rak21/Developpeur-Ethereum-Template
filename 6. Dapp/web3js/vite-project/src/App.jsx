@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 
 function App() {
@@ -10,6 +10,11 @@ function App() {
   const Decrement = () => {
     setCount(count - 1)
   }
+
+  useEffect(() => {
+    alert('Le count a changé !')
+  }, [count])
+
 
   return (
     <>
